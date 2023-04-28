@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sipentas</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Asset-Sipentas/logo.svg" alt="" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link" href="#">Website</a>
+                    <a class="nav-link" href="#">Jumlah Pengunjung</a>
+                    <a class="nav-link" href="#">Validasi File TTE</a>
+                </div>
+                <div class="d-flex">
+                    <a href="" class="btn btn-md btn-outline-light me-3">Masuk</a>
+                    <a href="" class="btn btn-md btn-info">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron w-100 d-flex align-items-center justify-content-center" style="height: 550px;">
+        <div class="container">
+            
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <img src="Asset-Sipentas/Logo-kotatasik.png" alt="" srcset="">
+                    <img src="Asset-Sipentas/Logo-diskominfo.png" alt="" srcset="">
+                </div>
+            </div>
+            
+            <div class="row">
+                <h1>Sipentas</h1>
+                <h5>Sistem Informasi Pelayanan Perizinan Online Kota Tasikmalaya</h5>
+                <small>Membangun Masyarakat Kota Tasikmalaya yang bersih, transparan, tanpa pungli. Serta memberikan hak kepada
+                    masyarakat sebagai objek pelatanan publik dalam rangka pemenuhan kebutuhan dan peraturan perundang-undagan.</small>
+            </div>
+            
+            <a href="" class="btn btn-primary p-2 mt-3">Pendaftaran</a>
+        </div>
+    </div>
+
+    <div class="body-content">
+        <div class="container">
+            <div class="row">
+                <section class="visi-misi">
+                    <div class="col-md-12 mt-5 text-center">
+                        <h2 class="fw-bold">VISI & MISI</h2>
+                        <br>
+                        <p>
+                            DPMPTSP sebagai OPD leading sektor aplikasi perizinan memiliki visi dan misi berikut
+                        </p>
+                    </div>
+                    
+                    <div class="row mt-3 visicard">
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image d-flex justify-content-center">
+                                        <img src="Asset-Sipentas/Visi-1.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                    
+                                    <div class="card-title mt-5">
+                                        <h3>Pelayanan Aplikasi Berkualitas Tinggi</h3>
+                                    </div>
+                    
+                                    <div class="card-text">
+                                        <p>
+                                            Meningkatkan Kualitas Pelayanan Penanaman Modal
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image d-flex justify-content-center">
+                                        <img src="Asset-Sipentas/Visi-2.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="card-title mt-5">
+                                        <h3>Kemitraan dan Kolaborasi untuk Pertumbuhan Investasi</h3>
+                                    </div>
+                    
+                                    <div class="card-text">
+                                        <p>
+                                            Meningkatkan Daya Tarik Penanaman Modal dan Pengembangan Kerjasama Lintas Stakeholders
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image d-flex justify-content-center">
+                                        <img src="Asset-Sipentas/Visi-3.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="card-title">
+                                        <h3>Pengembangan Investasi yang Terkendali dna Terukur</h3>
+                                    </div>
+                    
+                                    <div class="card-text">
+                                        <p>
+                                            Meningkatkan Pengembangan dan Pengendalian Penanaman Modal
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tracking-perizinan">
+                    <div class="col-md-12 mt-5 text-center">
+                        <h2 class="fw-bold">Tracking Perizinan Saya</h2>
+                    </div>
+                    
+                    <div class="row mt-3 tracking-perizinan-card">
+                        <div class="col-md-3">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image text-center">
+                                        <img src="Asset-Sipentas/tracking-1.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="card-title mt-3">
+                                        <p>
+                                            Pemohon mengakses halaman <b>Login</b> untuk masuk kedalam <b>Sipentas</b> (Sistem Perizinan
+                                            Online)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image">
+                                        <img src="Asset-Sipentas/tracking-2.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="card-title mt-3">
+                                        <p>
+                                            Memilih Menu Tracking pada daftar menu
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-image">
+                                        <img src="Asset-Sipentas/tracking-3.svg" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="card-title mt-3">
+                                        <p>
+                                            Pilih <b>Master izin, klasifikasi izin,</b> dan <b>detail izin</b> sesuai dengan ijin yang
+                                            dibuat.
+                                            Terakn tombol
+                                            <b>Lihat</b> untuk memilih tracking
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card w-100">                    
+                                <div class="card-body">
+                                <div class="card-image">
+                                    <img src="Asset-Sipentas/tracking-4.svg" alt="" srcset="" class="w-100">
+                                </div>
+                                    <div class="card-title mt-3">
+                                        <p>
+                                            <b>Tracking Perizinan</b> dapat anda lihat dengan mudah
+                                        </p>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row mt-4">
+                            <a href="" class="btn btn-primary">
+                                Cek Tracking Prizinan Saya
+                            </a>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <section class="jumlah-pendaftar">
+                    <div class="col-md-12 mt-5 text-center">
+                        <h2 class="fw-bold">Jumlah Pendaftar</h2>
+                        <p>
+                            Anda dapat melihat jumlah yang terdaftar dengan cara mengscroll <br>
+                            Hari ini: <b>Rabu, 26 April 2023</b>
+                        </p>
+                    </div>
+                    
+                    <div class="content-scroll mt-2 overflow-scroll">
+                        <div class="row mt-4">
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK PENARTA ANASTESA
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sippa</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK BIDAN
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPB</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK FISIOTERAPIS
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPF</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK REFRAKSIONIS OPTISIEN
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPRO</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK TERAPIS GIGI DAN MULUT
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPTGM</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK TENAGA RADIOGRAFI
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPTR</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PENYELENGGARA REKLAME TIDAK MENGGUNAKAN KONSTRUKSI BERAT
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">IPRNKB</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PENDIDIKAN NON FORMAL
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">PNF</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK TEKNISI PELAYANAN DARAH
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPTPD</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK TENAGA KESEHATAN TRADISIONAL JAMU
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPTKTJ</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK FISIOTERAPIS MANDIRI
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPFM</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK APOTEKER
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPA</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    IZIN PRAKTIK RADIOTRAPIS
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPR</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik elektromedis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPE</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik fisikawan medis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipfm</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik terapis gigi dan mulut mandiri
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sptgm</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    surat terdaftar penyenat tradisional
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">stpt</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin kerja tukang gigi
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sitg</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin pendidikan paud/tk/kb/tpa/sps
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">paud</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin penyelenggarra reklame konstruksi berat
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">iprkb</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik terapis wicara
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">siptw</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin kerja teknisi gigi
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">siktg</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik okupasi terapis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipot</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin profesi epidemiolog kesehatan
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipek</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin penelitian (non aktif)
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">penelitian</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin praktik perekam Medis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIpPM</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin praktik Perawat
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">SIPP</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin Praktik bidan mandiri
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">Sipbm</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin Praktik PErawat mandiri
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sppm</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin Praktik tenaga gizi
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">siptg</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    Izin Praktik psikolog klinis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sippk</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin tenaga teknis kefarmasian
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipttk</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik tenaga sanistarian
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipts</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik teknisi kardivaskuler
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">siptk</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik akupuntur terapis
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipat</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik dokter
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipd</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin praktik ahli teknologi laboratorium medik
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">sipatlm</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-4" style="width: 55%;">
+                                                <small class="text-uppercase">
+                                                    izin trayek
+                                                </small>
+                                            </div>
+                                            <div class="col-md-4" style="width: 35%;">
+                                                <h4 class="text-uppercase text-info fw-bold">trayek</h4>
+                                            </div>
+                                            <div class="col-md-4" style="width: 10%;">
+                                                <h4 class="fw-bold">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </section>
+                
+
+                <section class="kontak">
+                    <div class="col-md-12 mt-5 text-center">
+                        <h2 class="fw-bold">Kontak</h2>
+                        <p>
+                            Silakan menghubungi kami melalui info berikut:
+                        </p>
+                    </div>
+                    
+                    <div class="row mt-5 kontak-card">
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-images text-center">
+                                        <img src="Asset-Sipentas/kontak-1.svg" alt="" srcset="" class="w-50">
+                                    </div>
+                                    <div class="card-text text-center mt-3">
+                                        <p>Jl. Letnan Harun No.1 Kota Tasikmalaya</p>
+                                    </div>
+                                    <div class="d-grid">
+                                        <a href="" class="btn btn-info btn-md">Lihat di google maps</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-images text-center">
+                                        <img src="Asset-Sipentas/kontak-2.svg" alt="" srcset="" class="w-50">
+                                    </div>
+                                    <div class="card-text text-center">
+                                        <p>dpmptsp@tasikmalayakota.go.id</p>
+                                    </div>
+                                    <div class="d-grid">
+                                        <a href="" class="btn btn-info btn-md">Kirim Email</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="card-images text-center">
+                                        <img src="Asset-Sipentas/kontak-3.svg" alt="" srcset="" class="w-50">
+                                    </div>
+                                    <div class="card-text text-center">
+                                        <p>(0265) 314375</p>
+                                    </div>
+                                    <div class="d-grid">
+                                        <a href="" class="btn btn-info btn-md">Hubungi kami</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="col-md-12 mt-4 text-center">
+                    <h2 class="fw-bold">
+                        Sertifikasi elektronik diterbitkan oleh:
+                    </h2>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <hr>
+        <p class="text-secondary text-center">&copy; 2023 Diskominfo Kota Tasikmalaya</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+ 
