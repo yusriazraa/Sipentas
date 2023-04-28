@@ -38,7 +38,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .kontak-card .card{
-    height: 150px;
+    height: 140px;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.384);
     filter: blur(20);
@@ -49,7 +49,7 @@
     width: 150px;
     height: 150px;
     z-index: 100000;
-    margin-bottom: -10%;
+    margin-bottom: -5%;
 }
 .kontak .btn{
     opacity: 55%;
@@ -57,7 +57,19 @@
     color: white;
     font-weight: 700;
 }
-
+.tracking-perizinan .btn{
+    opacity: 55%;
+    filter: blur(20);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jumbotron .btn {
+    filter: blur(20);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .navbar .btn {
     width: 100px;
 }
